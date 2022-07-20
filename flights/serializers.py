@@ -2,7 +2,7 @@ from rest_framework import serializers
 from .models import Booking, Flight
 
 
-class ListSerializer(serializers.ModelSerializer):
+class FlightListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Flight
         # fields = '__all__'
@@ -13,7 +13,7 @@ class ListSerializer(serializers.ModelSerializer):
         """
 
 
-class ListSerializer(serializers.ModelSerializer):
+class BookingListSerializer1(serializers.ModelSerializer):
     class Meta:
 
         model = Booking
